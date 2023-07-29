@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "wiguru";
+    src: url("fonts/wiguru-13.ttf");
+}
+
+@font-face {
+    font-family: "catorze";
+    src: url("fonts/catorze27.ttf");
+}
+
+@font-face {
+    font-family: "acb";
+    src: url("fonts/acb.ttf");
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #1972de;
+    font-family: "wiguru";
+}
+
+h2 {
+    font-size: 26px;
+    color: cornflowerblue;
+    font-family: "catorze";
+}
+
+h3 {
+    color: deepskyblue;
+    margin-left: 20px;
+}
+
+a {
+    color: #2727a7;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin: auto;
+    border: 4px solid black;
+}
+
+.breedorigin {
+    font-size: 1.1rem;
+    font-family: "acb";
+}
