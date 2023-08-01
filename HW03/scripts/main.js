@@ -1,4 +1,4 @@
-let username = prompt("Enter username: ");
+const username = prompt("Enter username: ");
 function greeting(name) {
     console.log(`Hello, ${name}`);
 }
