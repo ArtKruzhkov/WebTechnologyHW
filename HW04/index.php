@@ -29,7 +29,7 @@ $workexparrname = "Work Experience";
 $WorkExp = [
     [
         'WorkPosition' => 'Front End Developer',
-        'DateStart' => 'Jan 2015 - ',
+        'DateStart' => 'Jan 2015',
         'DateEnd' => 'Current',
         'Discription' => 'Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit
         sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.'
@@ -138,7 +138,7 @@ $WorkExp = [
             <div class="w3-container"> 
               <h5 class="w3-opacity"><b><?php echo $WorkExp[$i]["WorkPosition"]?></b></h5>
               <?php if($WorkExp[$i]["DateEnd"] == "Current"): ?>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $WorkExp[$i]["DateStart"]?> <span
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $WorkExp[$i]["DateStart"]?> - <span
                 class="w3-tag w3-teal w3-round"><?php echo $WorkExp[$i]["DateEnd"]?></span></h6>
                 <?php else:  ?>
                     <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $WorkExp[$i]["DateStart"]?> - <?php echo $WorkExp[$i]["DateEnd"]?></h6>
